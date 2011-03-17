@@ -53,18 +53,10 @@ when you contribute to my code, please follow these rules:
 
 * Avoid multiline ?:, use if.
 
-* Suppress superfluous parentheses when calling methods, but keep them
-  when calling "functions", i.e. when you use the return value in the
-  same line.
+* Always use parentheses when calling a method with arguments
 
-    x = Math.sin(y)
-    array.delete e
-
-* Prefer {...} over do...end.  Multiline {...} is fine: having
-  different statement endings (} for blocks, end for if/while/...)
-  makes it easier to see what ends where.  But use do...end for
-  "control flow" and "method definitions" (e.g. in Rakefiles and
-  certain DSLs.)  Avoid do...end when chaining.
+* do ... end is preferred for blocks especially when multiline
+  Use { } for single-line blocks
 
 * Avoid return where not required.
 
